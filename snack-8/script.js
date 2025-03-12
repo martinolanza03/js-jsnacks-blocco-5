@@ -25,7 +25,7 @@ const students = [
 const studentIdTwo = students.find((element) => {
 
   if (element.name === `Marco Lanci`) {
-    return element.class;
+    return true;
   }
 
 });
